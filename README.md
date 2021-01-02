@@ -2,9 +2,9 @@
  Sistema de imobiliária com o laravel 7.
  
  # Ações disponiveis
-CRUD de clientes, imoveis, empresas, contratos e pots.
+CRUD de clientes, imoveis, empresas, contratos e posts.
 
-CRUD de consultas dos clientes, imoveis, empresas, contratos e pots.
+CRUD de consultas dos clientes, imoveis, empresas, contratos e posts.
 
 Usuário admin usando o seeder.
 
