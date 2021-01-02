@@ -2,14 +2,14 @@
  Sistema de imobiliária com o laravel 7.
  
  # Ações disponiveis
-CRUD de clientes, imoveis, empresas, contratos e posts.
+CRUD de clientes, imóveis, empresas, contratos e posts.
 
-CRUD de consultas dos clientes, imoveis, empresas, contratos e posts.
+CRUD de consultas dos clientes, imóveis, empresas, contratos e posts.
 
 Usuário admin usando o seeder.
 
-##### email: admin@admin.com
-##### senha: password
+##### email:admin@admin.com
+##### senha:password
 
 # ScreenShots
 
