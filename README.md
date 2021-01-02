@@ -11,6 +11,10 @@ Usuário admin usando o seeder.
 ##### email: admin@admin.com
 ##### senha: password
 
-# Video
+# ScreenShots
 
-![login](https://github.com/DCO20/lara_imobiliaria/blob/master/lara_imobiliaria.mp4)
+![painel administrativo](https://github.com/DCO20/lara_imobiliaria/blob/master/painel%20administrativo.png)
+![home](https://github.com/DCO20/lara_imobiliaria/blob/master/home.png)
+![vendas](https://github.com/DCO20/lara_imobiliaria/blob/master/vendas.png)
+![alugar](https://github.com/DCO20/lara_imobiliaria/blob/master/alugar.png)
+![blog](https://github.com/DCO20/lara_imobiliaria/blob/master/blog.png)
