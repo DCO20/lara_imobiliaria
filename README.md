@@ -8,8 +8,8 @@ CRUD de consultas dos clientes, imóveis, empresas, contratos e posts.
 
 Usuário admin usando o seeder.
 
-##### email:admin@admin.com
-##### senha:password
+##### email: admin@admin.com
+##### senha: password
 
 # ScreenShots
 
