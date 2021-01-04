@@ -1,5 +1,5 @@
 # Lara_Imobiliária
- Sistema de imobiliária com o laravel 7.
+ Sistema de imobiliária com o laravel 7 e admin voyager.
  
  # Ações disponiveis
 CRUD de clientes, imóveis, empresas, contratos e posts.
