@@ -4,7 +4,7 @@
 <div class="inside-banner">
     <div class="container"> 
       <span class="pull-right"><a href="{{route('web.home')}}">Home</a> / Venda</span>
-      <h2>Venda</h2>
+      <h2>Vendas</h2>
   </div>
   </div>
   <!-- banner -->

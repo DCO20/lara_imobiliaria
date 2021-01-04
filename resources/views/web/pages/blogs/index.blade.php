@@ -4,8 +4,8 @@
     <!-- banner -->
 <div class="inside-banner">
     <div class="container"> 
-      <span class="pull-right"><a href="{{ route('web.home')}}">Home</a> / Blogs</span>
-      <h2>Blogs</h2>
+      <span class="pull-right"><a href="{{ route('web.home')}}">Home</a> / Blog</span>
+      <h2>Blog</h2>
   </div>
   </div>
   <!-- banner -->
