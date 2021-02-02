@@ -11,6 +11,7 @@ Route::get('/sobre', 'WebController@about')->name('about');
 Route::get('/todos', 'WebController@all')->name('all');
 Route::post('/pesquisa', 'WebController@search')->name('search');
 Route::get('/contato', 'WebController@contact')->name('contact');
+Route::post('/email-send', 'WebController@emailSend')->name('emailSend');
 
 /** Detalhes Imoveis (venda)  */
 Route::get('/imoveis/venda', 'PropertySaleController@index')->name('sale');

@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
+use App\Mail\Contact;
 use App\Models\Property;
 use App\Models\Slider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class WebController extends Controller
 {
@@ -54,6 +56,19 @@ class WebController extends Controller
                             ->paginate();
 
         return view('web.pages.alls.index', compact('propertys', 'filters'));
+    }
+
+    public function emailSend(Request $request)
+    {
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message,
+        ];
+
+        Mail::send(new Contact($data));
+
+        return back()->with('message', 'Mensagem enviada com sucesso!.');
     }
 
 }

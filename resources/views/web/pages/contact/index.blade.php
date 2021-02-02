@@ -10,14 +10,19 @@
   </div>
   <!-- banner -->
   
-  
+  <div style="margin-top: 16px">
+    @include('web.includes.alerts')
+  </div>
+
   <div class="container">
   <div class="spacer">
   <div class="row contact">
-    <div class="col-lg-6 col-sm-6 ">
-        <input type="text" class="form-control" placeholder="Digite seu nome">
-        <input type="text" class="form-control" placeholder="Digite seu email">
-        <textarea rows="6" class="form-control" placeholder="Digite sua mensagem"></textarea>
+    <form action="{{ url('/email-send')}}" method="post">
+      @csrf
+      <div class="col-lg-6 col-sm-6 ">
+        <input name="name" type="text" class="form-control" placeholder="Digite seu nome">
+        <input name="email" type="text" class="form-control" placeholder="Digite seu email">
+        <textarea name="message" rows="6" class="form-control" placeholder="Digite sua mensagem"></textarea>
         <button type="submit" class="btn btn-success" name="Submit">Enviar</button>    
     </div>
     <div class="col-lg-6 col-sm-6 ">
@@ -26,6 +31,7 @@
     <div class="col-lg-6 col-sm-6 ">
         <button type="submit" class="btn btn-primary" name="Submit"><i class="fa fa-whatsapp" aria-hidden="true"></i> Fale através do WhatsApp</button>
     </div>
+    </form>
   </div>
   </div>
   </div>
